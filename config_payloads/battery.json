@@ -1,0 +1,11 @@
+{
+"device_class": "battery",
+"name": "Battery",
+"unit_of_measurement": "%",
+"value_template": "{{ value_json.battery}}",
+"device": {
+  "identifiers": "-", 
+  "manufacturer": "Inkbird",
+  "model": "IBS-TH2"
+}
+}

@@ -1,0 +1,10 @@
+{
+"device_class": "temperature",
+"name": "Temperature",
+"device": {
+  "manufacturer": "Inkbird", 
+  "model": "IBS-TH2"
+},
+"unit_of_measurement": "°C",
+"value_template": "{{ value_json.temperature}}"
+}
